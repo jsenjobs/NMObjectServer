@@ -51,13 +51,13 @@ app.use(function (req, res, next) {
 
 
 let cRoutes = require('./app/controller');
-app.get('/download/download/:fileName', cRoutes.download.Download);
-app.get('/download/show/:fileName', cRoutes.download.Show);
-app.post('/update/binary', cRoutes.update.UpdateBinary);
-app.post('/update/text', cRoutes.update.UpdateStr);
-app.get('/update/delete/:fileName', cRoutes.update.Delete);
-app.post('/upload/binary', cRoutes.upload.UploadBinary);
-app.post('/upload/text', cRoutes.upload.UploadStr);
+app.get('/objectstore/download/download/:fileName', cRoutes.download.Download);
+app.get('/objectstore/download/show/:fileName', cRoutes.download.Show);
+app.post('/objectstore/update/binary', cRoutes.update.UpdateBinary);
+app.post('/objectstore/update/text', cRoutes.update.UpdateStr);
+app.get('/objectstore/update/delete/:fileName', cRoutes.update.Delete);
+app.post('/objectstore/upload/binary', cRoutes.upload.UploadBinary);
+app.post('/objectstore/upload/text', cRoutes.upload.UploadStr);
 
 require('./app/db').mongoose.boot();
 

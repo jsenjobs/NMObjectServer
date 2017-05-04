@@ -21,7 +21,7 @@ describe('homepage', function() {
 		})
 	});
 	it('should respond to GET', function(done) {
-		superagent.get('http://localhost:'+port+'/user/ol/logout').end(function(res){
+		superagent.get('http://localhost:'+port+'/objectstore/user/ol/logout').end(function(res){
 			expect(res.status).to.equal(404);
 			done();
 		})
