@@ -9,13 +9,13 @@ before_install:
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 120.25.217.56\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
-- rm -rf cache.tar.bz2
+- rm -rf cacheobjectstore.tar.bz2
 - npm prune --production
 - mv ./product ./node_modules ./package.json ./pm2.json ~/ && rm -rf * && mv ~/product ~/node_modules ~/package.json ~/pm2.json ./ && tar -jcf cache.tar.bz2 *
-- tar -jcf cache.tar.bz2 *
-- scp cache.tar.bz2 root@120.25.217.56:~/
+- tar -jcf cacheobjectstore.tar.bz2 *
+- scp cacheobjectstore.tar.bz2 root@120.25.217.56:~/
 - ssh root@120.25.217.56 'rm -rf ~/MicroServer/ObjectStore'
-- ssh root@120.25.217.56 'mkdir -p ObjectStore && tar -jxf cache.tar.bz2 -C ObjectStore'
+- ssh root@120.25.217.56 'mkdir -p ObjectStore && tar -jxf cacheobjectstore.tar.bz2 -C ObjectStore'
 - ssh root@120.25.217.56 'mv ObjectStore ~/MicroServer/'
 - ssh root@120.25.217.56 'cd MicroServer/ObjectStore && npm start'
 - rm -rf ~/.ssh

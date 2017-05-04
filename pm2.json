@@ -5,11 +5,13 @@
     "watch"       : true,
     "env": {
       "NODE_ENV": "development",
-      "PORT":3000
+      "PORT":3000,
+      "HOST":"120.25.217.56"
     },
     "env_production" : {
        "NODE_ENV": "production",
-       "PORT":3000
+       "PORT":3000,
+       "HOST":"120.25.217.56"
     }
   }]
 }
