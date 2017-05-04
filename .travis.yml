@@ -11,7 +11,7 @@ before_install:
 after_success:
 - rm -rf cache.tar.bz2
 - npm prune --production
-- mv ./product ./node_modules ./package.json ~/ && rm -rf * && mv ~/product ~/node_modules ~/package.json ./ && tar -jcf cache.tar.bz2 *
+- mv ./product ./node_modules ./package.json ./pm2.json ~/ && rm -rf * && mv ~/product ~/node_modules ~/package.json ~/pm2.json ./ && tar -jcf cache.tar.bz2 *
 - tar -jcf cache.tar.bz2 *
 - scp cache.tar.bz2 root@120.25.217.56:~/
 - ssh root@120.25.217.56 'rm -rf ~/MicroServer/ObjectStore'
