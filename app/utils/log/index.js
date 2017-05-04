@@ -1,0 +1,1 @@
+exports.log4j = require('./log4jConfig');

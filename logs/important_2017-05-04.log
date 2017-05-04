@@ -1,0 +1,87 @@
+[2017-05-04 20:14:59.535] [INFO] console - worker (12604) is running
+[2017-05-04 20:14:59.549] [INFO] console - worker (12605) is running
+[2017-05-04 20:15:00.748] [INFO] console - worker (12633) is running
+[2017-05-04 20:15:00.723] [INFO] console - worker (12632) is running
+[2017-05-04 20:15:03.543] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:03.726] [INFO] console - worker is running on 12651 pid
+[2017-05-04 20:15:03.728] [INFO] console - worker is running on 12652 pid
+[2017-05-04 20:15:03.729] [INFO] console - worker is running on 12653 pid
+[2017-05-04 20:15:02.311] [INFO] console - worker (12641) is running
+[2017-05-04 20:15:02.287] [INFO] console - worker (12640) is running
+[2017-05-04 20:15:02.835] [INFO] console - worker (12644) is running
+[2017-05-04 20:15:04.319] [INFO] console - worker (12655) is running
+[2017-05-04 20:15:07.361] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:12.074] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:12.273] [INFO] console - worker is running on 12971 pid
+[2017-05-04 20:15:12.274] [INFO] console - worker is running on 12972 pid
+[2017-05-04 20:15:12.278] [INFO] console - worker is running on 12973 pid
+[2017-05-04 20:15:10.724] [INFO] console - worker (12896) is running
+[2017-05-04 20:15:10.768] [INFO] console - worker (12897) is running
+[2017-05-04 20:15:12.969] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:13.097] [INFO] console - worker is running on 13007 pid
+[2017-05-04 20:15:13.101] [INFO] console - worker is running on 13008 pid
+[2017-05-04 20:15:13.109] [INFO] console - worker is running on 13009 pid
+[2017-05-04 20:15:13.141] [INFO] console - worker is running on 13010 pid
+[2017-05-04 20:15:15.329] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:14.311] [INFO] console - worker (13041) is running
+[2017-05-04 20:15:20.428] [INFO] console - worker (13176) is running
+[2017-05-04 20:15:20.227] [INFO] console - worker (13173) is running
+[2017-05-04 20:15:22.564] [INFO] console - worker (13209) is running
+[2017-05-04 20:15:24.806] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:24.968] [INFO] console - worker is running on 13238 pid
+[2017-05-04 20:15:25.007] [INFO] console - worker is running on 13240 pid
+[2017-05-04 20:15:25.018] [INFO] console - worker is running on 13239 pid
+[2017-05-04 20:15:26.490] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:25.846] [INFO] console - worker (13251) is running
+[2017-05-04 20:15:28.246] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:28.376] [INFO] console - worker is running on 13301 pid
+[2017-05-04 20:15:28.379] [INFO] console - worker is running on 13302 pid
+[2017-05-04 20:15:28.416] [INFO] console - worker is running on 13305 pid
+[2017-05-04 20:15:28.423] [INFO] console - worker is running on 13304 pid
+[2017-05-04 20:15:29.920] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:30.090] [INFO] console - worker is running on 13343 pid
+[2017-05-04 20:15:30.091] [INFO] console - worker is running on 13344 pid
+[2017-05-04 20:15:30.952] [INFO] console - worker (13361) is running
+[2017-05-04 20:15:31.915] [INFO] console - worker (13371) is running
+[2017-05-04 20:15:31.943] [INFO] console - worker (13369) is running
+[2017-05-04 20:15:33.579] [INFO] console - worker (13386) is running
+[2017-05-04 20:15:33.602] [INFO] console - worker (13385) is running
+[2017-05-04 20:15:35.775] [INFO] console - worker (13411) is running
+[2017-05-04 20:15:38.538] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:40.532] [INFO] console - worker (13509) is running
+[2017-05-04 20:15:40.537] [INFO] console - worker (13510) is running
+[2017-05-04 20:15:43.517] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:43.640] [INFO] console - worker is running on 13557 pid
+[2017-05-04 20:15:43.674] [INFO] console - worker is running on 13560 pid
+[2017-05-04 20:15:43.674] [INFO] console - worker is running on 13558 pid
+[2017-05-04 20:15:43.678] [INFO] console - worker is running on 13559 pid
+[2017-05-04 20:15:44.618] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:15:44.842] [INFO] console - worker is running on 13577 pid
+[2017-05-04 20:15:44.852] [INFO] console - worker is running on 13576 pid
+[2017-05-04 20:15:46.851] [INFO] console - worker (13602) is running
+[2017-05-04 20:15:48.606] [INFO] console - worker (13614) is running
+[2017-05-04 20:15:48.562] [INFO] console - worker (13616) is running
+[2017-05-04 20:15:50.850] [INFO] console - worker (13636) is running
+[2017-05-04 20:15:50.873] [INFO] console - worker (13639) is running
+[2017-05-04 20:15:52.837] [INFO] console - worker (13659) is running
+[2017-05-04 20:16:21.279] [INFO] console -  Fork 4 worker(s) from master
+[2017-05-04 20:16:21.463] [INFO] console - worker is running on 13678 pid
+[2017-05-04 20:16:21.465] [INFO] console - worker is running on 13679 pid
+[2017-05-04 20:16:21.466] [INFO] console - worker is running on 13680 pid
+[2017-05-04 20:16:21.468] [INFO] console - worker is running on 13681 pid
+[2017-05-04 20:16:21.670] [INFO] console - worker (13679) is running
+[2017-05-04 20:16:23.023] [INFO] console - Running app as a module
+[2017-05-04 20:16:23.037] [INFO] server - 服务器端口：3000
+[2017-05-04 20:16:21.665] [INFO] console - worker (13678) is running
+[2017-05-04 20:16:23.214] [INFO] console - Running app as a module
+[2017-05-04 20:16:23.223] [INFO] server - 服务器端口：3000
+[2017-05-04 20:16:21.665] [INFO] console - worker (13680) is running
+[2017-05-04 20:16:23.267] [INFO] console - Running app as a module
+[2017-05-04 20:16:23.316] [INFO] server - 服务器端口：3000
+[2017-05-04 20:16:21.711] [INFO] console - worker (13681) is running
+[2017-05-04 20:16:23.332] [INFO] console - Running app as a module
+[2017-05-04 20:16:23.370] [INFO] server - 服务器端口：3000
+[2017-05-04 20:16:23.883] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:16:24.095] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:16:24.136] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:16:24.151] [INFO] MongoseIniter - MongoDB open

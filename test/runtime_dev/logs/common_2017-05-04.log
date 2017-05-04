@@ -1,0 +1,17 @@
+[2017-05-04 20:16:35.548] [INFO] console - Running app as a module
+[2017-05-04 20:16:35.676] [INFO] server - 服务器端口：3000
+[2017-05-04 20:16:35.816] [ERROR] server - Error: expected 404 to equal 401
+    at Assertion.assert (/Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/node_modules/._expect.js@0.3.1@expect.js/index.js:96:13)
+    at Assertion.be.Assertion.equal (/Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/node_modules/._expect.js@0.3.1@expect.js/index.js:216:10)
+    at /Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/test/test.js:25:26
+    at Request.callback (/Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/node_modules/._superagent@3.5.2@superagent/lib/node/index.js:688:3)
+    at /Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/node_modules/._superagent@3.5.2@superagent/lib/node/index.js:883:18
+    at IncomingMessage.<anonymous> (/Users/jsen/Documents/Projects/WebstormProjects/MicroServer/ObjectSotre/node_modules/._superagent@3.5.2@superagent/lib/node/parsers/json.js:16:7)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[2017-05-04 20:18:04.241] [INFO] console - Running app as a module
+[2017-05-04 20:18:04.333] [INFO] server - 服务器端口：3000
+[2017-05-04 20:18:04.413] [INFO] console - 

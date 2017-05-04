@@ -1,0 +1,57 @@
+{
+  "uploadBinary":{
+    "_links":"http://www.jsendev.com:3000/upload/binary",
+    "des":"上传一个二进制文件",
+    "method":"POST",
+    "params":[
+      {"name":"file", "type":"multipart","des":"一个multipart文件"}
+    ]
+  },
+  "uploadText":{
+    "_links":"http://www.jsendev.com:3000/upload/text",
+    "des":"上床一段文本文件",
+    "method":"POST",
+    "params":[
+      {"name":"strName", "type":"string", "des":"文本的名字，可用此名字查找该文件"},
+      {"name":"str", "type":"string","desc":"文本的内容"}
+    ]
+  },
+  "updateBinary":{
+    "_links":"http://www.jsendev.com:3000/update/binary",
+    "des":"更新一个二进制文件",
+    "method":"POST",
+    "params":[
+      {"name":"file", "type":"multipart","des":"一个multipart文件"}
+    ]
+  },
+  "updateText":{
+    "_links":"http://www.jsendev.com:3000/update/text",
+    "des":"更新一段文本字段",
+    "method":"POST",
+    "params":[
+      {"name":"strName", "type":"string", "des":"文本的名字，可用此名字查找该文件"},
+      {"name":"str", "type":"string","desc":"文本的内容"}
+    ]
+  },
+  "delete":{
+    "_links":"http://www.jsendev.com:3000/update/delete/:fileName",
+    "des":"删除一个文件或文本字段",
+    "method":"GET",
+    "params":[
+    ]
+  },
+  "download":{
+    "_links":"http://www.jsendev.com:3000/download/download/:fileName",
+    "des":"下载文件",
+    "method":"GET",
+    "params":[
+    ]
+  },
+  "show":{
+    "_links":"http://www.jsendev.com:3000/download/show/:fileName",
+    "des":"在浏览器显示文件（如果可以显示）",
+    "method":"GET",
+    "params":[
+    ]
+  }
+}
