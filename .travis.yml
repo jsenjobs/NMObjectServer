@@ -2,7 +2,10 @@ language: node_js
 node_js:
 - 7.9.0
 script:
+- npm run packbundle
 - npm run test
+services:
+- mongodb
 before_install:
 - openssl aes-256-cbc -K $encrypted_e48691c85bc8_key -iv $encrypted_e48691c85bc8_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d
@@ -16,6 +19,6 @@ after_success:
 - scp cacheobjectstore.tar.bz2 root@120.25.217.56:~/
 - ssh root@120.25.217.56 'rm -rf ~/MicroServer/ObjectStore'
 - ssh root@120.25.217.56 'mkdir -p ObjectStore && tar -jxf cacheobjectstore.tar.bz2 -C ObjectStore'
-- ssh root@120.25.217.56 'mv ObjectStore ~/MicroServer/'
+- ssh root@120.25.217.56 'mv ObjectStore ~/MicroServer/ && rm -rf ~/cacheobjectstore.tar.bz2'
 - ssh root@120.25.217.56 'cd MicroServer/ObjectStore && npm start'
 - rm -rf ~/.ssh
